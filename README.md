@@ -12,5 +12,5 @@ docker run -d --network rabbits -v ${PWD}/config/rabbit-1/:/config/ -e RABBITMQ_
 # Create rabbit mq node2 container
 docker run -d --network rabbits -v ${PWD}/config/rabbit-2/:/config/ -e RABBITMQ_CONFIG_FILE=/config/rabbitmq -e RABBITMQ_ERLANG_COOKIE=WIWVHCDTCIUAWANLMQAW --hostname rabbit-2 --name rabbit-2 rabbitmq:3.8-management
 
-#Access rabbit my managemnt console using your doker server ip on port 8081 . Default Rabbit mq console username: guest and password: guest
+#Access rabbit my managemnt console using your doker server ip on port 8081 . Default Rabbit mq console username: admin and password: admin
 ```
