@@ -2,6 +2,8 @@
 ```
 # Clone Code 
 git clone https://github.com/MithunTechnologiesDevOps/RabbitMQ-Cluster-Setup-Docker.git
+# Cd to the folder
+cd RabbitMQ-Cluster-Setup-Docker
 # Create Docker Bridge Network
 docker network create rabbits
 # Create rabbit mq node1 container
